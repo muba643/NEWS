@@ -32,7 +32,7 @@ function saveSeen(seenList) {
 
 // ---- AI PROCESSING (summarize + translate) ----
 async function processWithAI(title, snippet) {
-  const prompt = You are a news assistant. Given this news headline and snippet, respond with ONLY a JSON object (no markdown, no backticks, no extra text) with exactly these keys:
+  const prompt = `You are a news assistant. Given this news headline and snippet, respond with ONLY a JSON object (no markdown, no backticks, no extra text) with exactly these keys:
 {
   "english": "a simple, clear, easy-to-understand 1-2 sentence summary in English",
   "amharic": "the same summary translated into natural Amharic",
@@ -40,7 +40,7 @@ async function processWithAI(title, snippet) {
 }
 
 Headline: ${title}
-Snippet: ${snippet || "(no extra detail available)"};
+Snippet: ${snippet || "(no extra detail available)"}`;
 
   const res = await fetch(GEMINI_URL, {
     method: "POST",
@@ -60,7 +60,7 @@ Snippet: ${snippet || "(no extra detail available)"};
 
   try {
     // Strip accidental markdown fences just in case
-    const cleaned = rawText.replace(/`json|```/g, "").trim();
+    const cleaned = rawText.replace(/```json|```/g, "").trim();
     return JSON.parse(cleaned);
   } catch (err) {
     console.error("Failed to parse Gemini JSON:", rawText);
@@ -125,18 +125,19 @@ async function run() {
             `Source: ${feed.name}\n` +
             `${item.link}`;
         }
- await postToTelegram(message);
+
+        await postToTelegram(message);
         newLinks.push(item.link);
         seenSet.add(item.link);
       }
     } catch (err) {
-      console.error(Failed to fetch ${feed.name}:, err.message);
+      console.error(`Failed to fetch ${feed.name}:`, err.message);
     }
   }
 
   if (newLinks.length > 0) {
     saveSeen([...seen, ...newLinks]);
-    console.log(Done. Posted ${newLinks.length} new item(s).);
+    console.log(`Done. Posted ${newLinks.length} new item(s).`);
   } else {
     console.log("Done. No new items this run.");
   }
