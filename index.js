@@ -1,4 +1,4 @@
-[7/13/2026 9:58 PM] Muba: import Parser from "rss-parser";
+import Parser from "rss-parser";
 import fetch from "node-fetch";
 import fs from "fs";
 
