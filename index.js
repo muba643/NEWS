@@ -125,7 +125,7 @@ async function run() {
             `Source: ${feed.name}\n` +
             `${item.link}`;
         }
-[7/13/2026 9:58 PM] Muba: await postToTelegram(message);
+ await postToTelegram(message);
         newLinks.push(item.link);
         seenSet.add(item.link);
       }
