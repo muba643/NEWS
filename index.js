@@ -7,7 +7,7 @@ const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN; // never hardcode this
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY; // never hardcode this
 const CHANNEL = "@news_fetan_mereja";
 const SEEN_FILE = "./seen.json";
-const GEMINI_URL = https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY};
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Start with a small set of trusted, free RSS feeds.
 // We'll expand this list once the pipeline works end-to-end.
