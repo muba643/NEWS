@@ -3,61 +3,76 @@ import fetch from "node-fetch";
 import fs from "fs";
 
 // ---- CONFIG ----
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN; // never hardcode this
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY; // never hardcode this
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const CHANNEL = "@news_fetan_mereja";
 const SEEN_FILE = "./seen.json";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
-// Start with a small set of trusted, free RSS feeds.
-// We'll expand this list once the pipeline works end-to-end.
 const FEEDS = [
-  { name: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
-  { name: "Al Jazeera", url: "https://www.aljazeera.com/xml/rss/all.xml" },
-  // Islamic affairs / Middle East
-  { name: "Middle East Eye", url: "https://www.middleeasteye.net/rss" },
-  // Horn of Africa / regional
-  { name: "Ethiopia Insight", url: "https://ethiopia-insight.com/feed" },
-  { name: "Horn Observer", url: "https://hornobserver.com/feed" },
-  { name: "Addis Fortune", url: "https://addisfortune.news/feed" },
+  { name: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml", hashtags: "#WorldNews #BBC" },
+  { name: "Al Jazeera", url: "https://www.aljazeera.com/xml/rss/all.xml", hashtags: "#WorldNews #AlJazeera" },
+  { name: "Middle East Eye", url: "https://www.middleeasteye.net/rss", hashtags: "#IslamicNews #MiddleEast" },
+  { name: "Ethiopia Insight", url: "https://ethiopia-insight.com/feed", hashtags: "#Ethiopia #HornOfAfrica" },
+  { name: "Horn Observer", url: "https://hornobserver.com/feed", hashtags: "#HornOfAfrica #EastAfrica" },
+  { name: "Addis Fortune", url: "https://addisfortune.news/feed", hashtags: "#Ethiopia #AddisAbaba" },
 ];
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail"],
+    ],
+  },
+});
 
-// ---- FETCH FULL ARTICLE TEXT ----
-async function fetchArticleText(url) {
+function extractImageUrl(item) {
+  if (item.enclosure?.url) return item.enclosure.url;
+  if (item.mediaThumbnail?.$?.url) return item.mediaThumbnail.$.url;
+  if (Array.isArray(item.mediaContent) && item.mediaContent[0]?.$?.url) {
+    return item.mediaContent[0].$.url;
+  }
+  const html = item["content:encoded"] || item.content || item.contentSnippet || "";
+  const match = html.match(/<img[^>]+src="([^">]+)"/i);
+  return match ? match[1] : null;
+}
+
+async function fetchArticleContent(url) {
   try {
     const res = await fetch(url, {
       headers: { "User-Agent": "Mozilla/5.0 (compatible; AlHudaNewsBot/1.0)" },
     });
     const html = await res.text();
 
-    // Pull text out of <p> tags (a simple, dependency-free approach)
     const paragraphs = [...html.matchAll(/<p[^>]*>(.*?)<\/p>/gis)]
       .map((m) => m[1].replace(/<[^>]+>/g, "").trim())
-      .filter((p) => p.length > 40); // skip short/junk paragraphs like captions
+      .filter((p) => p.length > 40);
 
-    const text = paragraphs.join(" ").slice(0, 3000); // cap length sent to AI
-    return text || null;
+    const text = paragraphs.join(" ").slice(0, 3000);
+
+    const imageMatch = html.match(
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i
+    );
+    const image = imageMatch ? imageMatch[1] : null;
+
+    return { text: text || null, image };
   } catch (err) {
-    console.error(`Failed to fetch article body: ${err.message}`);
-    return null;
+    console.error(`Failed to fetch article content: ${err.message}`);
+    return { text: null, image: null };
   }
 }
 
-// ---- DEDUPE STORAGE ----
 function loadSeen() {
   if (!fs.existsSync(SEEN_FILE)) return [];
   return JSON.parse(fs.readFileSync(SEEN_FILE, "utf-8"));
 }
 
 function saveSeen(seenList) {
-  // Keep only the last 500 links so the file doesn't grow forever
   const trimmed = seenList.slice(-500);
   fs.writeFileSync(SEEN_FILE, JSON.stringify(trimmed, null, 2));
 }
 
-// ---- AI PROCESSING (summarize + translate) ----
 async function processWithAI(title, articleText) {
   const prompt = `You are a news assistant. Given this news headline and article content, write a clear, easy-to-understand summary IN YOUR OWN WORDS (do not copy sentences directly from the article) covering the key facts. Respond with ONLY a JSON object (no markdown, no backticks, no extra text) with exactly these keys:
 {
@@ -86,7 +101,6 @@ Article content: ${articleText || "(no additional detail available, summarize fr
   }
 
   try {
-    // Strip accidental markdown fences just in case
     const cleaned = rawText.replace(/```json|```/g, "").trim();
     return JSON.parse(cleaned);
   } catch (err) {
@@ -95,7 +109,6 @@ Article content: ${articleText || "(no additional detail available, summarize fr
   }
 }
 
-// ---- TELEGRAM ----
 async function postToTelegram(text) {
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
   const res = await fetch(url, {
@@ -116,7 +129,27 @@ async function postToTelegram(text) {
   }
 }
 
-// ---- MAIN ----
+async function postPhotoToTelegram(photoUrl, caption) {
+  const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: CHANNEL,
+      photo: photoUrl,
+      caption,
+      parse_mode: "HTML",
+    }),
+  });
+  const data = await res.json();
+  if (!data.ok) {
+    console.error("Telegram photo error:", data);
+    return false;
+  }
+  console.log("Posted with photo:", caption.split("\n")[0]);
+  return true;
+}
+
 async function run() {
   if (!BOT_TOKEN) {
     console.error("Missing TELEGRAM_BOT_TOKEN environment variable.");
@@ -130,30 +163,42 @@ async function run() {
   for (const feed of FEEDS) {
     try {
       const parsed = await parser.parseURL(feed.url);
-      // Only check the newest 5 items per feed each run
       const latestItems = parsed.items.slice(0, 5);
 
       for (const item of latestItems) {
         if (seenSet.has(item.link)) continue;
 
-        const articleText = await fetchArticleText(item.link);
+        const { text: articleText, image: ogImage } = await fetchArticleContent(item.link);
+        const image = ogImage || extractImageUrl(item);
         const ai = await processWithAI(item.title, articleText || item.contentSnippet);
 
         let message;
         if (ai) {
           message =
+            `${feed.hashtags}\n\n` +
             `🇪🇹 <b>${escapeHtml(ai.amharic)}</b>\n\n` +
             `🇪🇹 ${escapeHtml(ai.oromo)}\n\n` +
             `🇬🇧 ${escapeHtml(ai.english)}\n\n` +
             `Source: ${feed.name}`;
         } else {
-          // Fallback: if AI fails, still post the raw headline so nothing is lost
           message =
+            `${feed.hashtags}\n\n` +
             `<b>${escapeHtml(item.title)}</b>\n` +
             `Source: ${feed.name}`;
         }
 
-        await postToTelegram(message);
+        if (image && message.length <= 1024) {
+          const ok = await postPhotoToTelegram(image, message);
+          if (!ok) await postToTelegram(message);
+        } else if (image) {
+          const shortCaption = `${feed.hashtags}\n\n<b>${escapeHtml(item.title)}</b>`;
+          const ok = await postPhotoToTelegram(image, shortCaption);
+          await postToTelegram(message);
+          if (!ok) console.error("Photo failed to send, posted text only.");
+        } else {
+          await postToTelegram(message);
+        }
+
         newLinks.push(item.link);
         seenSet.add(item.link);
       }
