@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
+    "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+    "english": "Ukrainian drone strikes have targeted several warehouses belonging to Wildberries, Russia's largest online retailer, causing significant damage and loss of life. While Kyiv claims these logistics hubs are being used to support military supplies, the attacks have severely impacted many small Russian business owners who rely on the platform. This escalation is bringing the direct consequences of the war to the Russian civilian population as both sides continue to target each other's commercial infrastructure.",
+    "amharic": "የዩክሬን ድሮኖች የሩሲያ ትልቁ የኢንተርኔት የችርቻሮ መሸጫ ድርጅት የሆነውን የዋይልድቤሪስ (Wildberries) መጋዘኖችን ማጥቃታቸውን ተከትሎ ከፍተኛ ጉዳት እና የሰው ህይወት መጥፋት ተከስቷል። ዩክሬን እነዚህ ቦታዎች ለወታደራዊ ግብዓት አቅርቦት ይውላሉ ብትልም፣ ጥቃቱ መድረኩን ለስራቸው የሚጠቀሙ ብዙ የሩሲያ አነስተኛ ነጋዴዎችን በእጅጉ ጎድቷል። ይህ ድርጊት ጦርነቱ ወደ ተራው የሩሲያ ህዝብ መኖሪያ እየተጠጋ መምጣቱን የሚያሳይ ሲሆን፣ ሁለቱም ወገኖች የርስ በርስ የንግድ መሰረተ ልማቶችን ኢላማ ማድረጋቸውን ቀጥለዋል።",
+    "oromo": "Humni waraana Yukreeni, bakka gurgurtaa meeshaalee intarneetii kan Raashiyaa guddaa ta'e Wildberries irratti erga weerara dhooyee booda miidhaan guddaan ga'eera. Yukreen, giddu-galeeyyonni kun meeshaalee waraanaaf gargaaran jettee himattus, weerarri kun daldaltoota xixiqqoo irratti dhiibbaa cimaa uumeera. Qilleensi waraanaa kun gara biyya Raashiyaa keessatti babal'achaa waan jiruuf, namoota idilee biyyattii irra miidhaa geessisaa jira; gama biraatiinis, garuu walgahii lachuu walii isaanii irratti weerara suuqii fi bakka meeshaaleen itti kuufaman irratti bananii jiru.",
+    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3c64/live/d7b13ca0-85f3-11f1-8ade-a7a676c613b9.jpg",
+    "source": "BBC World",
+    "hashtags": "#WorldNews #BBC",
+    "link": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+    "publishedAt": "2026-07-22T23:06:08.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
     "title": "Austrian home where Hitler was born reopened as police station",
     "english": "The house in Austria where Adolf Hitler was born has officially reopened as a local police station. This transformation follows a multi-million dollar renovation project aimed at repurposing the site. The move is intended to prevent the location from continuing to serve as a destination for neo-Nazi sympathizers and extremists.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#WorldNews #AlJazeera",
     "link": "https://www.aljazeera.com/news/2026/7/21/trump-administration-attacks-us-left-alleging-cuba-ties-key-takeaways?traffic_source=rss",
     "publishedAt": "2026-07-21T22:55:43.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
-    "title": "Moldova chooses new prime minister as it pushes for EU membership",
-    "english": "Moldova's parliament has appointed Vasile Tofan as the new prime minister to replace the outgoing government. Tofan aims to strengthen the country’s economy while continuing the push toward full European Union membership by 2030. This appointment maintains the nation’s strategic focus on European integration despite ongoing political challenges and influence from Russia.",
-    "amharic": "የሞልዶቫ ፓርላማ ቫሲሌ ቶፋንን አዲሱ ጠቅላይ ሚኒስትር አድርጎ መርጧል። አዲሱ መሪ የአገሪቱን ኢኮኖሚ በማሻሻል በ2030 ወደ አውሮፓ ህብረት ለመቀላቀል የሚደረገውን ጥረት ለማፋጠን አቅደዋል። ይህ ሹመት ሞልዶቫ ከሩሲያ ተጽዕኖ በመውጣት ከአውሮፓ ጋር ያላትን ግንኙነት የማጠናከር የፖለቲካ አቅጣጫዋን እንደምትቀጥል ያረጋግጣል።",
-    "oromo": "Paarlaamaan Moldoovaa Vasile Tofan muummicha ministeeraa haaraa ta'anii filateera. Tofan diinagdee biyyattii fooyyessuun dabalatee, hanga bara 2030tti miseensa Gamtaa Awurooppaa ta'uuf carraaqqii taasisaa jiru itti fufsiisuu barbaada. Mudamni kun Moldoovaan dhiibbaa Raashiyaa irraa bilisa taatee gara Awurooppaatti hidhata qabaachuuf karoora ishee akka itti fuftu kan mirkaneessu dha.",
-    "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a5ff2d7a6735-1784672983.jpg?resize=1920%2C1440",
-    "source": "Al Jazeera",
-    "hashtags": "#WorldNews #AlJazeera",
-    "link": "https://www.aljazeera.com/news/2026/7/21/moldova-chooses-new-prime-minister-as-it-pushes-for-eu-membership?traffic_source=rss",
-    "publishedAt": "2026-07-21T22:53:42.000Z"
   }
 ]
