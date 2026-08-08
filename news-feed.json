@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "Typhoon Dolphin hits Japan, heads towards China",
+    "english": "Typhoon Dolphin has struck southern Japan, causing power outages for 14,000 buildings and leaving five elderly people with minor injuries. The storm is now moving toward the eastern coast of China, leading officials to close schools, ports, and tourist locations in preparation. Authorities in China have declared an emergency as they brace for significant wind and heavy rainfall expected over the coming days.",
+    "amharic": "ታይፎን ዶልፊን በደቡባዊ ጃፓን በመድረሱ 14,000 ህንጻዎች የኤሌክትሪክ አገልግሎት ተቋርጦባቸዋል፤ አምስት አረጋውያንም መጠነኛ ጉዳት ደርሶባቸዋል። አውሎ ነፋሱ አሁን ወደ ምስራቅ ቻይና እያመራ ሲሆን፣ የቻይና ባለስልጣናት ለጥንቃቄ ሲባል ትምህርት ቤቶችን፣ ወደቦችን እና የቱሪስት መዳረሻዎችን ዘግተዋል። በቻይና የሚጠበቀውን ከፍተኛ የዝናብ እና የንፋስ አደጋ ለመከላከል መንግስት የአስቸኳይ ጊዜ ዝግጅት አድርጓል።",
+    "oromo": "Obomboleettiin 'Dolphin' jedhamu kibba Jaappaan rukutuun buufataalee elektirikii 14,000 irratti miidhaa geessiseera, akkasumas namoota maanguddoo shan irratti miidhaan salphaan ga’eera. Obomboleettiin kun amma gara baha Chaayinaatti kan imalaa jiru yoo ta’u, mootummaan Chaayinaa sodaa cimaa irraa kan ka’e manneen barnootaa, buufataalee doonii fi iddoolee turizimii cufuuf dirqameera. Biyyattiin qophii ariifachiisaa taasiftee, rooba cimaa fi bubbee jabaa dhufuu danda'uuf of qopheessaa jirti.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-07T094647Z_739709912_RC2LTMA3PJ07_RTRMADP_3_ASIA-WEATHER-TYPHOON-DOLPHIN-1786171412.jpg?resize=1920%2C1440",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/8/typhoon-dolphin-hits-japan-heads-towards-china?traffic_source=rss",
+    "publishedAt": "2026-08-08T08:50:49.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
     "title": "The phone book that led us to Assad's spy chief in hiding",
     "english": "Following the fall of Bashar al-Assad's regime in Syria, investigators discovered an abandoned luxury apartment belonging to Hussam Luka, a top intelligence official known as 'The Spider.' Luka, who is accused of overseeing widespread torture and atrocities, disappeared when the government collapsed. Reporters found a notebook containing numerous contacts inside his residence, which they believe could offer critical evidence regarding his crimes and his current whereabouts.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#Ethiopia #AddisAbaba",
     "link": "https://addisfortune.news/right-sizing-tests-addis-abeba-universitys-promise-for-autonomy",
     "publishedAt": "2026-08-02T03:00:25.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly9hZGRpc2ZvcnR1",
-    "title": "Tax Bills Outrun the Metre, Stalling Taxi-hailing Drivers",
-    "english": "Ride-hailing drivers in Addis Ababa are struggling with significantly higher tax assessments that far exceed their original expectations. These rising costs, combined with expensive fuel and maintenance, are making it difficult for many to remain profitable. As a result, many drivers are abandoning ride-hailing platforms to operate manually and avoid these heavy tax burdens.",
-    "amharic": "በአዲስ አበባ የሚገኙ የትራንስፖርት አገልግሎት ሰጪዎች ከጠበቁት በላይ በሆነ ከፍተኛ የታክስ ክፍያ ምክንያት ችግር ውስጥ ገብተዋል። እየጨመረ የመጣው የነዳጅ ዋጋ እና የተሽከርካሪ ጥገና ወጪ ከከፍተኛ ታክስ ጋር ተዳምሮ አሽከርካሪዎችን ለኢኮኖሚ ቀውስ እየዳረጋቸው ነው። በዚህም ሳቢያ ብዙ አሽከርካሪዎች ከቴክኖሎጂ መተግበሪያዎች በመውጣት ታክስን ለመሸሽ በግል ሥራቸውን ለመቀጠል እየተገደዱ ነው።",
-    "oromo": "Ogeeyyonni konkolaataa fe'umsaa (ride-hailing) Finfinnee keessa jiran, kaffaltii gibiraa isaanii dursee yaadamee ol ta'een rakkoo keessa galanii jiru. gatiin boba'aa fi kaffaltiin suphaa konkolaataa dabaluun isaa akkasumas gibirri hanga kanaa gahuun isaanii bu'aa hojii isaanii hir'iseera. Kanaan kan ka'e, ogeeyyonni baay'een isaanii appilikeeshinoota kanneen gadi dhiisanii, gibira irraa bilisa ta'uuf jecha karaa idilee (manual) fayyadamuuf dirqamaa jiru.",
-    "image": "https://addisfortune.news/wp-content/uploads/2026/08/Tax-Bills-Outrun-the-Metre-Stalling-Ride-hailing-Drivers.jpg",
-    "source": "Addis Fortune",
-    "hashtags": "#Ethiopia #AddisAbaba",
-    "link": "https://addisfortune.news/tax-bills-outrun-the-metre-stalling-ride-hailing-drivers",
-    "publishedAt": "2026-08-02T02:59:41.000Z"
   }
 ]
