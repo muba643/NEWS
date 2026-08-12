@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "White House construction project to cost almost $1bn",
+    "english": "The Trump administration is facing scrutiny after reports revealed plans to spend nearly $1 billion on White House construction, including a new ballroom. Officials defend the project as a necessary security measure coordinated with the Secret Service. However, critics and lawmakers are concerned that the heavy reliance on private donations could lead to conflicts of interest.",
+    "amharic": "የአሜሪካ መንግስት በኋይት ሀውስ ለግንባታ ስራዎች ወደ አንድ ቢሊዮን ዶላር ሊያወጣ መሆኑ መነጋገሪያ ሆኗል። አስተዳደሩ ፕሮጀክቱ ለፕሬዝዳንቱ ደህንነት ሲባል አስፈላጊ እንደሆነ የሚገልጽ ሲሆን፥ የህግ መወሰኛ ምክር ቤት አባላት ግን በግል ለጋሾች የሚደረገው የገንዘብ ድጋፍ የጥቅም ግጭት ሊፈጥር ይችላል የሚል ስጋት አላቸው።",
+    "oromo": "Mootummaan Trump mana mootummaa (White House) haaromsuuf doolara biliyoona tokko ga'u baasuuf karoorfachuu isaa hordofee mormiin ka'eera. Qondaaltonni mootummaa hojiin kun nageenya prezidantichaa mirkaneessuuf barbaachisaa akka ta'e dubbatanis, gargaarsi namoota dhuunfaa irraa argamu kun walitti bu'iinsa faayidaa uumuu danda'a jedhanii shakkuun ka'eera.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7ca41d-1786553373.jpg?resize=1920%2C1440",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/12/white-house-construction-project-to-cost-almost-1bn?traffic_source=rss",
+    "publishedAt": "2026-08-12T17:23:45.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
     "title": "Major Russian grain export terminal hit in Ukraine Black Sea port attack",
     "english": "A significant Ukrainian drone and missile attack has damaged Russian grain export facilities and a major naval base in the port city of Novorossiysk. The assault resulted in several civilian casualties and forced Russia to divert its cargo shipments to other transport routes. President Zelensky stated that Ukrainian forces are targeting Russian military infrastructure to weaken the ongoing occupation.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#IslamicNews #MiddleEast",
     "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-rights-groups-sue-trump-administration-over-icc-sanctions",
     "publishedAt": "2026-08-11T22:38:46.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cubWlkZGxl",
-    "title": "Israel launches fresh attack on Bint Jbeil, southern Lebanon",
-    "english": "The Israeli military has conducted a significant airstrike on the village of Haddatha, located in southern Lebanon's Bint Jbeil district. This report comes from Lebanese state media, which has labeled the operation a massive bombing campaign. Officials are currently monitoring the situation as it develops.",
-    "amharic": "የእስራኤል ወታደራዊ ኃይል በደቡብ ሊባኖስ ቢንት ጅቤይል ወረዳ በሚገኘው የሐዳታ መንደር ላይ ከፍተኛ የአየር ጥቃት መፈጸሙ ተዘግቧል። የሊባኖስ የመንግስት የዜና ወኪል ጥቃቱ ከፍተኛ ጉዳት የሚያደርስ መጠነ ሰፊ የቦምብ ድብደባ እንደሆነ አስታውቋል። ሁኔታው አሁን በመካሄድ ላይ ያለ በመሆኑ ተጨማሪ መረጃዎች እንደሚጠበቁ ተገልጿል።",
-    "oromo": "Raayyaan ittisa biyyaa Israa'el ganda Haddataa kan kutaa Bint Jbeil, kibba Libaanoositti argamu irratti haleellaa qilleensa irraa kan raawwate ta'uu gabaasni miidiyaa mootummaa Libaanoos ni ibsa. Haleellaan kun kan bal'atee fi kan cimaa akka ta'e gabaafameera. Haalli kun amma iyyuu itti fufee waan jiruuf, odeeffannoon dabalataa fuulduratti kan eegamu ta'a.",
-    "image": "https://www.middleeasteye.net/sites/default/files/2026-08/Iran-vessels-hormuz-august-2026-afp.jpg",
-    "source": "Middle East Eye",
-    "hashtags": "#IslamicNews #MiddleEast",
-    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-fresh-attack-bint-jbeil-southern-lebanon",
-    "publishedAt": "2026-08-11T22:19:44.000Z"
   }
 ]
