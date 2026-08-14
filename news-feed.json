@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "Former Cambridge professor accused of plagiarism found dead",
+    "english": "Jason Arday, a prominent academic who made history as the University of Cambridge's youngest Black professor, has been found dead at age 41. His death occurred just nine days after he resigned from his position following serious allegations of plagiarism regarding his doctoral research. Although he acknowledged errors in his work, Arday denied being a fraud, and the university had been conducting an investigation into his academic record.",
+    "amharic": "የካምብሪጅ ዩኒቨርሲቲ ታናሹ ጥቁር ፕሮፌሰር የነበሩት ጄሰን አርዳይ በ41 ዓመታቸው ህይወታቸው አልፏል። አርዳይ ከዶክትሬት ጥናታቸው ጋር በተያያዘ በቀረበባቸው የምርምር ስርቆት ክስ ምክንያት ከስራቸው ከለቀቁ ዘጠኝ ቀናት በኋላ ነበር የሞቱት። በስራቸው ላይ ስህተቶች እንደነበሩ ቢቀበሉም፣ በአጭበርባሪነት መከሰሳቸውን ውድቅ አድርገው የነበረ ሲሆን ዩኒቨርሲቲውም በአካዳሚክ ስራቸው ላይ ምርመራ እያደረገ ነበር።",
+    "oromo": "Pirofeesarri dargaggeessiifi gurraachi Yuunivarsiitii Kaambirijii ta’anii seenaa hojjetan jeeson Arday, umrii waggaa 41tti du’anii argaman. Arday kan du’an, qorannoo doktooraatii isaanii irratti himata hatuu qorannoo (plagiarism) irratti dhiyaateen walqabatee hojiirraa erga gadi bahan guyyaa sagal booda dha. Hoji isaanii keessa dogoggorri akka jiru amanataniyyuu, himata sobaa fi hatuu qorannoo irratti dhiyaate kan morman yoo ta’u, yuunivarsiitiinis dhimma isaanii ilaalchisee qorannoo gaggeessaa ture.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Jason-Arday-1786262041.jpg?resize=1920%2C1440",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/14/former-cambridge-professor-accused-of-plagiarism-found-dead?traffic_source=rss",
+    "publishedAt": "2026-08-14T20:46:40.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cubWlkZGxl",
     "title": "Trump says he will 'soon' declare Hormuz strait US territory",
     "english": "During a rally in New York, Donald Trump announced plans to label the Strait of Hormuz as American territory following a potential victory over Iran. He shared this intention while discussing the ongoing conflict with the Iranian government. The statement was delivered to a crowd at a police academy event.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#WorldNews #AlJazeera",
     "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/08-14-2026-clacton-by-election-reported?traffic_source=rss",
     "publishedAt": "2026-08-14T04:38:50.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
-    "title": "Water supply for three US states drips down, Lake Mead at record low",
-    "english": "Lake Mead, the largest reservoir in the United States, has reached an unprecedented low water level. Located between Nevada and Arizona, its decline by two-thirds threatens the water and electricity supply for millions of people. This crisis highlights the severe impact on resources across the western part of the country.",
-    "amharic": "በዩናይትድ ስቴትስ ትልቁ የውኃ ማጠራቀሚያ የሆነው የሜድ ሐይቅ የውኃ መጠን ወደ መዝገብ ዝቅተኛ ደረጃ ወርዷል። በአሪዞና እና በኔቫዳ ድንበር ላይ የሚገኘው የዚህ ሐይቅ የውኃ መጠን በሁለት ሦስተኛ በመቀነሱ በምዕራብ አሜሪካ የሚገኙ በሚሊዮን የሚቆጠሩ ሰዎችን የውኃ እና የኤሌክትሪክ አቅርቦት አደጋ ላይ ጥሏል። ይህም በክልሉ ላይ እየተፈጠረ ያለውን ከፍተኛ የተፈጥሮ ሀብት እጥረት ያሳያል።",
-    "oromo": "Haroon Mead, kuusaan bishaanii biyya Ameerikaa keessatti hunda caalu, hanga bishaanii seenaa keessatti mul'atee hin beekne gadi bu'eera. Haroon daangaa Arizonaa fi Nevada gidduutti argamu kun harka lama sadiin hir'achuun isaa, jiraattota naannoo sanaa miliyoonaan lakkaa'aman irratti dhiibbaa guddaa uumeera. Hir'inni bishaanii kun dhiyeessii bishaanii fi humna ibsaa naannoo sanaa balaaf saaxilee jira.",
-    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786681478.jpg?resize=1620%2C1080&amp;quality=80",
-    "source": "Al Jazeera",
-    "hashtags": "#WorldNews #AlJazeera",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/water-supply-for-three-us-states-drips-down-lake-mead-at-record-low?traffic_source=rss",
-    "publishedAt": "2026-08-14T04:26:09.000Z"
   }
 ]
