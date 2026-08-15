@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "At scene of deadly Israeli strike on Lebanon home",
+    "english": "An overnight Israeli airstrike hit a residential home in the southern Lebanese town of Ansar. The attack resulted in the deaths of at least seven people, including children. Ongoing military actions continue to cause significant destruction throughout the southern region.",
+    "amharic": "በደቡብ ሊባኖስ አንሳር ከተማ ውስጥ በሚገኝ አንድ መኖሪያ ቤት ላይ እስራኤል ባደረሰችው የሌሊት የአየር ጥቃት ቢያንስ ሰባት ሰዎች ህይወታቸው አልፏል። ከተገደሉት መካከል ህጻናት እንደሚገኙበት ተገልጿል። በሊባኖስ ደቡባዊ ክፍል የሚካሄዱት ተደጋጋሚ ጥቃቶች ከፍተኛ ውድመት እያስከተሉ ይገኛሉ።",
+    "oromo": "Halkan darbetti xiyyiirri waraana Israa'el ganda Ansaar kan kibba Libaanoositti argamu keessatti mana jireenyaa tokko rukutee jira. Hojii waraana kanaan namoonni yoo xiqqaate torba du'aniiru; isaan keessas ijoolleen akka jiran gabaafameera. Haleellaa fi badiin naannoo kibba Libaanoos keessatti bal'inaan itti fufee jira.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786789070.jpg?resize=1920%2C1080&amp;quality=80",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss",
+    "publishedAt": "2026-08-15T10:18:40.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
     "title": "South Korea proposes talks to officially end war with North",
     "english": "South Korean President Lee Jae Myung has invited North Korea to engage in formal discussions aimed at officially concluding the Korean War. The proposal seeks to establish a security framework to lower border tensions and includes an offer to negotiate a halt to the North's nuclear weapons program. This initiative represents a push for diplomatic resolution after decades of a frozen conflict governed only by an armistice.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#WorldNews #AlJazeera",
     "link": "https://www.aljazeera.com/news/longform/2026/8/14/the-party-of-the-cubans-how-republicans-courted-a-key-south-florida-vote?traffic_source=rss",
     "publishedAt": "2026-08-14T15:25:11.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
-    "title": "Ahmed al-Sharaa: A New Vision for Syria",
-    "english": "Following the collapse of the al-Assad regime in late 2024, Ahmed al-Sharaa, formerly known as Abu Mohammed al-Julani, has assumed the presidency of Syria. In a recent interview, he outlined his ambition to transition the nation toward a modern democracy while restoring its damaged international relationships and economy. He also emphasized his success in resolving tensions with the Kurdish community and stated that Syria will remain neutral regarding conflicts in Lebanon.",
-    "amharic": "እ.ኤ.አ. በ2024 መጨረሻ የአል-አሳድ አገዛዝ ከወደቀ በኋላ፣ ቀደም ሲል በአቡ መሐመድ አል-ጁላኒ ስም የሚታወቁት አህመድ አል-ሻራ የሶሪያ ፕሬዝዳንት ሆነው ተሹመዋል። በቅርቡ ባደረጉት ቃለ ምልልስ፣ አገሪቱን ወደ ዘመናዊ ዲሞክራሲ የመቀየር፣ የተጎዳውን ኢኮኖሚ የማገገም እና የውጭ ግንኙነቶችን የማሻሻል እቅዳቸውን አብራርተዋል። ከኩርድ ማህበረሰብ ጋር የነበረውን ግጭት በመፍታታቸው የተደሰቱ ሲሆን፣ ሶሪያ በሊባኖስ ግጭት ውስጥ ጣልቃ እንደማትገባም አስታውቀዋል።",
-    "oromo": "Dhuma bara 2024 sirni al-Assad erga kufee booda, namni kanaan dura Abu Mohammadi al-Julaanii jedhamanii beekaman Ahmed al-Sharaa pirezidaantii Sooriyaa ta’aniiru. Gaafii fi deebii taasisaniin, biyyattii gara dimokiraasii ammayyaatti ceesisuu, dinagdee miidhame suphuu fi hariiroo idil-addunyaa foyyeessuuf karoorasanii akka jiran ibsaniiru. Haawaasa Kurdii wajjin walitti bu'iinsa ture furuu isaanii kan ibsan yoo ta'u, Sooriyaan walitti bu'iinsa Liibaanoos keessatti harka akka hin qabaanne mirkaneessaniiru.",
-    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786635977.jpg?resize=1920%2C1080&amp;quality=80",
-    "source": "Al Jazeera",
-    "hashtags": "#WorldNews #AlJazeera",
-    "link": "https://www.aljazeera.com/video/al-jazeera-world/2026/8/14/ahmed-al-sharaa-a-new-vision-for-syria?traffic_source=rss",
-    "publishedAt": "2026-08-14T15:00:00.000Z"
   }
 ]
