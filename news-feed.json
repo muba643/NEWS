@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "Inside the UK’s ‘stressful’ cost of living crisis Burnham hopes to tackle",
+    "english": "Many families in the United Kingdom are struggling to afford essential needs due to a severe and persistent cost of living crisis. Individuals like Donna O'Hara, who faces personal health challenges and financial hardship, are increasingly forced to rely on food banks and face the threat of eviction. The new government has pledged to address these economic pressures to help those currently unable to cover their basic expenses.",
+    "amharic": "በዩናይትድ ኪንግደም እየተባባሰ የመጣው የኑሮ ውድነት ብዙ ቤተሰቦች መሰረታዊ ፍላጎቶቻቸውን ማሟላት እንዳይችሉ አድርጓቸዋል። እንደ ዶና ኦሃራ ያሉ በጤና እክልና በኢኮኖሚ ችግር ውስጥ የሚገኙ ዜጎች የምግብ እርዳታ ላይ ለመውደቅና ከመኖሪያ ቤታቸው የመፈናቀል ስጋት ተጋርጦባቸዋል። አዲሱ የሀገሪቱ መንግስት ይህንን አስቸጋሪ ሁኔታ ለመቅረፍና ለተጎጂዎች እፎይታ ለመስጠት ቃል ገብቷል።",
+    "oromo": "Biyyoota tokko tokko keessatti gatiin jireenyaa waan dabaleef maatiin baay'een wantoota barbaachisoo ta'an bitachuu irratti rakkataniiru. Namoonni akka Donna O’Hara dhibee fayyaafi rakkoo dinagdee keessa jiran gargaarsa nyaataa barbaaduufi mana isaanii keessa ari'amuu sodaachuun dirqamaniiru. Mootummaan biyyattii haaraan rakkoo diinagdee kana furuufi namoota gargaarsa barbaadan cinaa dhaabbachuuf waadaa galeera.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Donna-OHara-1786954828.jpg?resize=1728%2C1080",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/17/who-can-live-on-340-a-month-inside-the-uks-cost-of-living-crisis?traffic_source=rss",
+    "publishedAt": "2026-08-17T09:41:19.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
     "title": "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
     "english": "A powerful 7.7 magnitude earthquake in Indonesia's Flores island has resulted in at least 53 deaths and displaced 5,000 people. Many survivors are sleeping outside due to constant aftershocks, while damaged infrastructure and landslides are preventing critical aid from reaching those in need. There is growing concern regarding food and water shortages as hospitals struggle to operate in temporary tents.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#IslamicNews #MiddleEast",
     "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-pray-al-aqsa-compound",
     "publishedAt": "2026-08-16T12:29:01.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cubWlkZGxl",
-    "title": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
-    "english": "Escalating military conflict between Iran, the US, and Israel has caused major disruptions to Middle Eastern aviation, leading to significant financial losses projected at $4.3 billion for 2026. Frequent airspace closures, decreased passenger demand, and higher fuel costs have forced regional carriers to operate at reduced capacity. Additionally, many international airlines have suspended their services to the Gulf, severely impacting the region's traditional hub-and-spoke business model.",
-    "amharic": "በኢራን፣ በአሜሪካ እና በእስራኤል መካከል ያለው ወታደራዊ ግጭት በመካከለኛው ምስራቅ የአቪዬሽን ዘርፍ ላይ ከፍተኛ ጉዳት በማድረሱ በ2026 የ4.3 ቢሊዮን ዶላር ኪሳራ እንደሚገመት ታውቋል። የአየር ክልል በተደጋጋሚ መዘጋት፣ የተሳፋሪዎች መቀነስ እና የነዳጅ ዋጋ መጨመር የአካባቢውን አየር መንገዶች አቅማቸውን እንዲቀንሱ አስገድዷቸዋል። በተጨማሪም፣ በርካታ ዓለም አቀፍ አየር መንገዶች ወደ መካከለኛው ምስራቅ የሚያደርጉትን በረራ ማቆማቸው የክልሉን የአቪዬሽን ንግድ ስትራቴጂ ከፍተኛ ፈተና ውስጥ ከቷል።",
-    "oromo": "Gidduu galeessa bahaatti waraanni Iran, US fi Israa'el gidduutti ka'e damee xiyyaaraa irratti miidhaa guddaa geessisee jira; kunis bara 2026 tti hojii irraa miidhaa doolaara biliyoona 4.3 ta'u akka qaqqabsiisu tilmaamameera. Cufamuu bakka balalii, hir'ina imaltootaa fi gatii boba'aa dabaleen walqabatee, kampaanonni xiyyaaraa naannichaa guutummaan hojjechuu dadhabaniiru. Kana malees, kampaanonni xiyyaaraa idil-addunyaa hedduun gara naannichatti balalii dhaabuu isaaniitiin, mala daldalaan naannichi ittiin beekamu hubameera.",
-    "image": "https://www.middleeasteye.net/sites/default/files/images-story/emirates-flight-dubai-2026-afp.jpg",
-    "source": "Middle East Eye",
-    "hashtags": "#IslamicNews #MiddleEast",
-    "link": "https://www.middleeasteye.net/news/middle-eastern-airlines-lose-43bn-2026-amid-iran-war",
-    "publishedAt": "2026-08-16T12:21:37.000Z"
   }
 ]
