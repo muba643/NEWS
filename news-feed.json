@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cubWlkZGxl",
+    "title": "Oman intensifies efforts to contain oil spill from stranded ship",
+    "english": "Oman is working hard to manage a massive oil spill spreading over 2,000 square kilometers near al-Qibliyyah Island. The vessel involved, the Caroline Bezengi, suffered a suspected explosion earlier this month and is currently stranded. Response teams are facing significant difficulties because the ship is unstable and lacks the power needed to operate necessary cleanup equipment.",
+    "amharic": "ኦማን በአል-ቂብሊያ ደሴት አቅራቢያ ከ2,000 ካሬ ኪሎ ሜትር በላይ በተስፋፋው የነዳጅ መፍሰስ አደጋ ላይ ቁጥጥር ለማድረግ ጥረት እያደረገች ነው። የካሮላይን ቤዘንጊ የተባለው መርከብ ሰኔ 8 ቀን በደረሰ ፍንዳታ ምክንያት ከተጎዳ በኋላ በአካባቢው ተጣብቋል። የመርከቧ የኤሌክትሪክ ኃይል መቋረጥ እና የመርከቧ ደህንነት የተጠበቀ አለመሆን ለጽዳት ስራው ትልቅ ተግዳሮት ሆኗል።",
+    "oromo": "Omaan bishaan galaanaafi naannoo al-Qibliyyahitti dhangala'iinsa boba'aa bal'ina kiilomeetira iskuweerii 2,000 ol ta'u to'achuuf carraaqqii cimaa gochaa jirti. Markabni 'Caroline Bezengi' jedhamu kun ji'a kana keessa qophii kanaan dura mudateen booda galaanatti caccabee dhaabbate. Hojjattoonni fayyisuuf hojjetan, markabichi humna ibsaa waan hin qabneefi haalli markabichaa nageenya kan hin qabneef hojiin kun rakkoo cimaa keessa jira.",
+    "image": "https://www.middleeasteye.net/sites/default/files/2026-08/A%20boy%20carries%20a%20table%20past%20workers%20salvaging%20rubble%20from%20a%20building%20destroyed%20during%20the%20war%20in%20Gaza%20City%2C%2016%20August%202026%20%28Omar%20Al-Qattaa%20AFP%29.jpg",
+    "source": "Middle East Eye",
+    "hashtags": "#IslamicNews #MiddleEast",
+    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-intensifies-efforts-contain-oil-spill-stranded-ship",
+    "publishedAt": "2026-08-17T17:40:27.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
     "title": "Explosion reported at school in Afghan capital Kabul",
     "english": "An explosion occurred at a school in the Dasht-e-Barchi neighborhood of Kabul, Afghanistan, injuring several students. While the exact cause and casualty count remain unconfirmed, some reports suggest a hand grenade may have been used. The Taliban government has not yet provided an official statement regarding the incident.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#WorldNews #AlJazeera",
     "link": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
     "publishedAt": "2026-08-17T01:28:13.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
-    "title": "Can the AU make its current Sudan mission count?",
-    "english": "A delegation from the African Union has arrived in Sudan for a two-day visit aimed at brokering a ceasefire and improving humanitarian aid access. While the Sudanese military has recently reclaimed some territory, the conflict remains deadlocked, making a diplomatic solution difficult to achieve. The AU is working to move beyond just stopping the fighting by encouraging a broader, civilian-led political process to restore long-term stability.",
-    "amharic": "የአፍሪካ ህብረት ልዑካን ቡድን በሱዳን የተኩስ አቁም ስምምነት ላይ ለመድረስ እና የሰብአዊ እርዳታ አቅርቦትን ለማሻሻል የሁለት ቀን ጉብኝት ጀምሯል። የሱዳን ጦር በቅርቡ የተወሰኑ አካባቢዎችን ቢቆጣጠርም፣ በሁለቱ ተፋላሚ ኃይሎች መካከል ያለው የኃይል ሚዛን አሁንም ተቀራራቢ በመሆኑ ዲፕሎማሲያዊ መፍትሄ ለማምጣት አስቸጋሪ ሆኗል። ህብረቱ ግጭቱን ከማስቆም ባለፈ፣ ለረጅም ጊዜ የሚቆይ ሰላምን ለማረጋገጥ በሲቪል መሪዎች የሚመራ ሁሉን አቀፍ የፖለቲካ ሂደትን ለመጀመር እየሰራ ነው።",
-    "oromo": "Ergamtooni Gamtaa Afrikaa waraana Sudaan dhaabsisuufi gargaarsi namoomaa akka ga’u mari’achuuf guyyoota lamaaf biyyattii daawwachuuf dhufaniiru. Waraanni Sudaan naannoolee tokko tokko deebisee to’atus, lolli kun hanga ammaatti furmaata waaraa dhabee jira. Gamtaan Afrikaa waraana dhaabsisuu qofa osoo hin taane, nageenya biyyattii deebisanii dhaabuuf hirmaannaa qaamolee siivilii fayyadamuun furmaata siyaasaa argamsiisuuf yaalii gochaa jira.",
-    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP25234546087165-1786354637.jpg?resize=1920%2C1440",
-    "source": "Al Jazeera",
-    "hashtags": "#WorldNews #AlJazeera",
-    "link": "https://www.aljazeera.com/news/2026/8/17/can-the-au-make-its-current-sudan-mission-count?traffic_source=rss",
-    "publishedAt": "2026-08-17T01:13:37.000Z"
   }
 ]
