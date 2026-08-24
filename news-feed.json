@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cuYWxqYXpl",
+    "title": "Rain and flooding from Typhoon Narra hits China and Vietnam",
+    "english": "Typhoon Narra has brought severe weather, including intense rainfall and flooding, to northern Vietnam and southern China. The storm has caused significant property damage, forcing thousands of people to flee their homes. Sadly, authorities have confirmed at least one fatality in northern Vietnam due to the disaster.",
+    "amharic": "የናራ አውሎ ንፋስ በሰሜን ቬትናም እና በደቡብ ቻይና ክፍሎች ከባድ ዝናብ እና ጎርፍ አስከትሏል። ይህ የተፈጥሮ አደጋ በሺዎች የሚቆጠሩ ሰዎችን ከመኖሪያ ቤታቸው እንዲፈናቀሉ አድርጓል። በሰሜን ቬትናም ቢያንስ አንድ ሰው ህይወቱ ማለፉ ተረጋግጧል።",
+    "oromo": "Obomboleettiin Narra jedhamu kaaba Viyeetnaamii fi kibba Chaayinaa keessatti rooba cimaa fi lolaa guddaa hordofsiiseera. Balaan kun namoota kumaatamaan lakka'aman mana isaanii irraa kan buqqaase yoo ta'u, kaaba Viyeetnaam keessatti namni tokko lubbuun isaa darbuun mirkanaa'eera.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Untitled-1-Recovered-1787577270.jpg?resize=1920%2C1417",
+    "source": "Al Jazeera",
+    "hashtags": "#WorldNews #AlJazeera",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/8/24/rain-and-flooding-from-typhoon-narra-hits-china-and-vietnam?traffic_source=rss",
+    "publishedAt": "2026-08-24T13:14:48.000Z"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cuYmJjLmNv",
     "title": "Access to Zambian courts prevented as election petition deadline looms",
     "english": "Zambian authorities have closed several court buildings across the country, including the Supreme and Constitutional Courts, right as the deadline to challenge the recent presidential election results approaches. Opposition candidate Brian Mundubile, who claims the election was flawed, is now effectively blocked from filing his legal challenge against President Hakainde Hichilema’s victory. While the government cites security concerns for the shutdowns, critics argue this move is an attempt to stop the legal opposition and secure the president's upcoming inauguration.",
@@ -1186,17 +1198,5 @@
     "hashtags": "#IslamicNews #MiddleEast",
     "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-threatens-intensify-gaza-strikes-displace-more-palestinians-over",
     "publishedAt": "2026-08-23T17:10:12.000Z"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cubWlkZGxl",
-    "title": "Israeli forces open fire on Palestinians across West Bank in separate incidents",
-    "english": "Israeli forces were involved in multiple violent incidents across the West Bank on Sunday, resulting in the arrest of a teenager and the shooting of two others. One Palestinian man was injured near Taybeh after an alleged attempt to take a soldier's weapon, while a 14-year-old boy was killed by gunfire in the Askar refugee camp. Local community leaders have contested the military's justifications for these actions, citing a lack of provocation in the fatal shooting of the minor.",
-    "amharic": "እሁድ ዕለት በተያዘው ዌስት ባንክ የእስራኤል ኃይሎች በተፈጠሩ ተከታታይ ግጭቶች አንድ ታዳጊን በቁጥጥር ስር ያዋሉ ሲሆን በሌሎች ሁለት ፍልስጤማውያን ላይም ተኩስ ከፍተዋል። በታይቤህ አቅራቢያ የጦር መሳሪያ ለመንጠቅ ሞክሯል በተባለ ሰው ላይ በተወሰደው እርምጃ አንድ ሰው ሲቆስል፣ በአስካር መጠለያ ጣቢያ ውስጥ ግን አንድ የ14 ዓመት ልጅ በጥይት ተገድሏል። የአካባቢው የሕዝብ ተወካዮች የሕፃኑ መገደል ምንም አይነት ምክንያት ያልነበረው እና ተገቢ ያልሆነ ድርጊት መሆኑን ገልጸዋል።",
-    "oromo": "Dilbata darbe naannoo Qarree Lixaa (West Bank) keessatti loltoonni Israa’el walitti bu’iinsa garaagaraa uumaniin dargaggeessa tokko hidhaniiru, namoota biroo lama irratti ammoo dhukaasa bananiiru. Namni tokko naannoo Taybeh-tti meeshaa waraanaa fuudhuuf yaale jedhamee erga rukutamee booda miidhaan irra gaheera, dargaggeessi umriin isaa 14 ta’e tokko ammoo buufata baqattootaa Askar keessatti dhukaasaan ajjeefameera. Hogganoonni naannichaa dhukaasa mucicha irratti banamee fi ajjeechaa raawwatame fudhatama kan hin qabne fi sababa tokko malee kan raawwatame ta’uu ibsaniiru.",
-    "image": "https://www.middleeasteye.net/sites/default/files/2026-08/2026-08-23T111756Z_1166619849_RC2A4NA0EVTH_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA%20%281%29.jpg",
-    "source": "Middle East Eye",
-    "hashtags": "#IslamicNews #MiddleEast",
-    "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-open-fire-palestinians-across-west-bank-separate",
-    "publishedAt": "2026-08-23T16:34:01.000Z"
   }
 ]
